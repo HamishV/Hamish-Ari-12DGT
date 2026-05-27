@@ -1,7 +1,6 @@
 body {
     background-color: #000000;
 }
-/* This is changing the background colour of the doc */
 h1{
     color:#FFFFFF;
     text-align:center;
@@ -9,13 +8,13 @@ h1{
 }
 
 .navbar {
-    background-color: #FFFFFF;
+    background-color: #000000;
     padding: 20px;
     display: flex;
-    justify-content: center;
+
 }
 .navbar a {
-    color: #000000;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 10px 15px;
     margin: 0 10px;
@@ -23,96 +22,9 @@ h1{
     transition: background-color 0.3s;
     font-family: Garamond, serif;
     font-size: 20px;
+    width: 33.33%;
 }
 
 .navbar a:hover {
-    background-color: #74c365;
-}
-
-h2{
-    color:#74c365;
-    text-align:center;
-    font-family: Garamond, serif;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-}
-
-iframe{
-  text-align:center;
-  position: absolute;
-  margin: auto;
-  top: 67%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-footer{
-background-color: #FFFFFF;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-/* This is for my footer, fixing its position as the bottom as well as the colour */
-list{
-    color:#74c365;
-    text-align:center;
-}
-
-.info{
-    padding: 20px;
-    background-color: #74c365;
-    width:50%;
-    margin: auto;
-    border-radius:10px;
-}
-
-h3{
-    color:#044A46;
-    text-align:center;
-    font-family: Garamond, serif;
-}
-
-p{
-    color:#044A46;
-    text-align:center;
-    font-family: Garamond, serif;
-    font-size:20px;
-}
-
-.Image1{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-}
-/* This is resizing and adjusting the size of my image */
-.link{
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.MessageBox{
-    padding:10px;
-    text-align: center;
-}
-
-.Image3{
-    width:35%;
-}
-
-.Image4{
-    width:35%;
-}
-
-.Image8{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: #353333;
 }
