@@ -96,3 +96,10 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
+
+.homeicon { 
+    width: 3%;
+    height: 3%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
