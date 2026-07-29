@@ -166,3 +166,10 @@ p7 {
     float: right;
     font-weight: bold;
 }
+
+.homeicon { 
+    width: 3%;
+    height: 3%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
