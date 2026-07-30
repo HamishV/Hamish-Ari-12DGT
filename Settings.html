@@ -7,13 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header>
-        <h11>Change language:</h11><select id="language-switcher">
-            <option value="en">English</option>
-            <option value="mi">Te Reo Māori</option>
-        </select>
-    </header>
 </body>
+
+<div class="lang-switcher-container">
+  <input type="radio" id="lang-en" name="language" checked />
+  <input type="radio" id="lang-mi" name="language" />
+
+  <div class="lang-buttons">
+    <label for="lang-en">English</label>
+    <label for="lang-mi">Te Reo Māori</label>
+  </div>
+
+  <div class="content">
+    <h1 lang="en">Settings</h1>
+    <h1 lang="mi">Ngā Tautuhinga</h1>
+
+    <p lang="en">Here you can change your language preferences.</p>
+    <p lang="mi">Ka taea e koe te whakarerekē i ō manakohanga reo i konei.</p>
+  </div>
+</div>
 
 <body class = "home">
   <div class = "navbar">

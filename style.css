@@ -173,3 +173,38 @@ p7 {
     margin-left: auto; 
     margin-right: auto; 
 }
+
+input[type="radio"][name="language"] {
+  display: none;
+}
+
+.content [lang] {
+  display: none;
+}
+
+#lang-en:checked ~ .content [lang="en"] {
+  display: block;
+}
+
+#lang-mi:checked ~ .content [lang="mi"] {
+  display: block;
+}
+
+
+.lang-buttons label {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#lang-en:checked ~ .lang-buttons label[for="lang-en"],
+#lang-mi:checked ~ .lang-buttons label[for="lang-mi"], {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+  font-weight: bold;
+}
