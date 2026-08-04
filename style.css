@@ -98,10 +98,13 @@ h1 {
 }
 
 .sheep {
-    width: 8%;
-    height: 8%;
-    display: block; 
-    
+  width: 8%;
+  height: 8%;
+  margin-right: 70px; 
+  display: block;
+  float:right
+  
+  
 }
 
 .logo1 { 
