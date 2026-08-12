@@ -5,19 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
-<h1>EASY</h1>
-<body class="home">
-  <div class="navbar">
-    <img src="Home.png" class="homeicon"><a href="Home.html"> Home</a>>
-    <img src="playicon.png" class="playicon"><a href="Play.html"> Play!</a>
-    <img src="Settings.png" class="settingsicon"><a href="Settings.html"> Settings</a>
-    <img src="Profile.png" class="profileicon"><a href="Profile.html"> Profile</a>
+
+<div class="navbar">
+  <div class="nav-item">
+    <a href="Home.html"><img src="Home.png" class="homeicon" alt="Home Icon"> Home</a>
   </div>
-<p5>What region is this?</p5>
+  
+  <div class="nav-item">
+    <a href="Play.html"><img src="playicon.png" class="playicon" alt="Play Icon"> Play!</a>
+  </div>
+
+  <div class="nav-item">
+    <a href="Settings.html"><img src="Settings.png" class="settingsicon" alt="Settings Icon"> Settings</a>
+  </div>
+  
+  <div class="nav-item">
+    <a href="Profile.html"><img src="Profile.png" class="profileicon" alt="Profile Icon"> Profile</a>
+  </div>
+</div>
+<div class="lang-switcher-container">
+  <input type="radio" id="lang-en" name="language" checked />
+  <input type="radio" id="lang-mi" name="language" />
+
+<div class="lang-buttons">
+    <label for="lang-en">English</label>
+    <label for="lang-mi">Te Reo Māori</label>
+</div>
+
+  <div class="content">
+    <h1 lang="en">EASY</h1>
+    <h1 lang="mi">Ngāwari</h1>
+  </div>
+
+    <div class="content">
+    <p5 lang="en">What region is this?</p5>
+    <p5 lang="mi">He aha tēnei rohe?</p5>
+  </div>
+
 </body>
 <img src="easy1.jpg" class="easy1">
 </a>
 <p><a href="easy2.html" class="correcttext">Taranaki</a></p>
-<p><a href="incorrect.html" class="incorrecttext">Otago</a></p>
+<p><a href="incorrect.html" class="incorrecttext">Otago/Ōtākou</a></p>
 </html>
 </body>
